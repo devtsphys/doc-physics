@@ -10,6 +10,11 @@ $$
 \vec x=(x,y,z)^T
 $$
 
+We define the velocity of a classical particle as the derivative w.r.t time
+
+$$
+\vec v=\dot{\vec x}=\frac{\mathrm d}{\mathrm dt}\vec x
+
 # Electrodynamics
 
 # Quatum Mechanics
