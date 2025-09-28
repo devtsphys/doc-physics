@@ -5,7 +5,10 @@
 ## Mechanics of a particle
 
 the general trajectory of a classical partical is given by
-$$\vec x=(x,y,z)^T$$
+
+$$
+\vec x=(x,y,z)^T
+$$
 
 # Electrodynamics
 
