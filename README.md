@@ -24,6 +24,8 @@ $$
 
 # Electrodynamics
 
+## Maxwell's Equations
+
 # Quatum Mechanics
 
 # Quantum Field Theory
