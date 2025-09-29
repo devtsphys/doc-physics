@@ -7,22 +7,21 @@
 The general trajectory of a classical partical in the three-dimensional space is given by
 
 $$
-\vec x=(x(t),y(t),z(t))^T=
-\begin{pmatrix}x(t)\\ y(t)\\ z(t)\end{pmatrix}
+\vec x(t)=(x(t),y(t),z(t))^T=
 $$
 
 where the coordinate functions $x\equiv x(t)$ depend on the time variable $t\in\mathbb R$.
 
-We define the velocity of a classical particle as the derivative w.r.t time
+We define the velocity of a classical particle as the derivative with respect to the time variable
 
 $$
-\vec v=\dot{\vec x}=\frac{\mathrm d}{\mathrm dt}\vec x=(\dot x,\dot y,\dot z)^T
+\vec v(t)=\dot{\vec x}(t)=\frac{\mathrm d}{\mathrm dt}\vec x(t)=(\dot x(t),\dot y(t),\dot z(t))^T
 $$
 
 The acceleration of a classical particle is given by
 
 $$
-\vec a=\dot{\vec v}=\frac{\mathrm d}{\mathrm dt}\vec v=(\ddot x,\ddot y,\ddot z)^T
+\vec a(t)=\dot{\vec v}(t)=\frac{\mathrm d}{\mathrm dt}\vec v(t)=(\ddot x(t),\ddot y(t),\ddot z(t))^T
 $$
 
 # Electrodynamics
