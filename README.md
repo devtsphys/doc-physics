@@ -153,9 +153,29 @@ such that for every action, there is an equal and opposite action.
 
 # Electrodynamics
 
+## Lorenz force on a charged particle
+
+The force on a charged particle with charge $q$ and mass $m$ is given by
+
+$$
+\vec F_L(\vec x)=q(\vec E(\vec x)+\dot{\vec x}\times\vec B(\vec x))
+$$
+
 ## Maxwell's Equations
 
+Maxwell's equations of electrodynamics are given by
 
+$$
+\begin{aligned}
+\vec\nabla\cdot\vec E(\vec x)&=\frac{\rho(\vec x)}{\varepsilon_0}
+\\
+\vec\nabla\cdot\vec B(\vec x)&=0
+\\
+\vec\nabla\times\vec E(\vec x)&=-\frac{\partial \vec B(\vec x)}{\partial t}
+\\
+\vec\nabla\times\vec B(\vec x)&=\mu_0\left(\frac{a}{b}\right)
+\end{aligned}
+$$
 
 # Quatum Mechanics
 
