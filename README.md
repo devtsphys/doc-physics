@@ -62,11 +62,13 @@ $$
 with the circular velocity $\omega$ and
 
 $$
-\vec x(t)=R(\cos\omega t,\sin\omega t)^T=R\vec e_r(t),
+\begin{aligned}
+\vec x(t)&=R(\cos\omega t,\sin\omega t)^T=R\vec e_r(t),
 \\
-\vec v(t)=R\omega(-\sin\omega t,\cos\omega t)^T=R\omega\vec e_\varphi(t),
+\vec v(t)&=R\omega(-\sin\omega t,\cos\omega t)^T=R\omega\vec e_\varphi(t),
 \\
-\vec a(t)=-\omega^2\vec x(t)=-R\omega^2\vec e_r(t)
+\vec a(t)&=-\omega^2\vec x(t)=-R\omega^2\vec e_r(t)
+\end{aligned}
 $$
 
 and the circular unit vectors
