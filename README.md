@@ -24,6 +24,16 @@ $$
 \vec a(t)=\dot{\vec v}(t)=\frac{\mathrm d}{\mathrm dt}\vec v(t)=(\ddot x(t),\ddot y(t),\ddot z(t))^T
 $$
 
+In case of a constant acceleration $\vec a(t)=\vec a$, the coordinate function is given by
+
+$$
+\vec x(t)=\frac{1}{2}\vec a t^2+\vec v_0 t + \vec x_0
+,\quad
+\vec x_0=\vec x(t=0)
+,\quad
+\vec v_0=\dot{\vec x}(t=0)
+$$
+
 # Electrodynamics
 
 ## Maxwell's Equations
