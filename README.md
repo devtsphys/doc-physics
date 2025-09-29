@@ -16,6 +16,11 @@ $$
 \vec v=\dot{\vec x}=\frac{\mathrm d}{\mathrm dt}\vec x=(\dot x,\dot y,\dot z)^T
 $$
 
+The acceleration of a classical particle is given by
+$$
+\vec a=\dot{\vec v}=\frac{\mathrm d}{\mathrm dt}\vec v=(\dot x,\dot y,\dot z)^T
+$$
+
 # Electrodynamics
 
 # Quatum Mechanics
