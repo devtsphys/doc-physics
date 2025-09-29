@@ -74,15 +74,88 @@ $$
 and the circular unit vectors
 
 $$
-\vec e_r(t)=(\cos\omega t,\sin\omega t)^T,\\
-\vec e_\varphi(t)=(-\sin\omega t,\cos\omega t)^T
+\begin{aligned}
+\vec e_r(t)&=(\cos\omega t,\sin\omega t)^T,\\
+\vec e_\varphi(t)&=(-\sin\omega t,\cos\omega t)^T
+\end{aligned}
 $$
 
+## Forces
+
+The superposition priciple is given by
+
+$$
+\vec F=\sum_i \vec F_i
+$$
+
+with a force field defined by $\vec F\equiv \vec F(\vec x)$. A specific type of force fields are represented by central force fields depending of the radial distance only $\vec F(\vec x)=f(|\vec x|)\vec e_r$.
+
+### Examples
+
+#### Gravitational force
+The gravitational force between two point like classical particles with masses $m_1,m_2$ is given by
+
+$$
+\vec F_G=-G\frac{m_1m_2}{|\vec x_1(t)-\vec x_2(t)|^3}(\vec x_1(t)-\vec x_2(t))
+$$
+
+#### Electrostatic force
+The electrodynamical force (Coulomb force) between two point charges $q_1,q_2$ is given by
+
+$$
+\vec F_C=\frac{q_1q_2}{4\pi\varepsilon_0}
+\frac{(\vec x_1(t)-\vec x_2(t))}
+{|\vec x_1(t)-\vec x_2(t)|^3}
+$$
+
+## Newton's Axioms of classical mechanics
+
+### 1. Axiom
+
+Every body remains in the state of rest or in a uniform linear motion unless a force acts upon it.
+
+The state of movement is represented as the momentum of a particle
+
+$$
+\vec p(t)=m\vec v(t)
+$$
+
+The momentum of a free particle is constant with respect to time $\dot{\vec p}=0$.
+
+### 2. Axiom
+
+The cause of a change in a body's momentum is a force acting on the particle
+
+$$
+\vec F(t)=\frac{\mathrm d\vec p}{\mathrm dt}
+$$
+
+which is given by
+
+$$
+\vec F(t)=m\frac{\mathrm d\vec v}{\mathrm dt}
++\vec v\frac{dm}{dt}
+$$
+
+### 3. Axiom
+
+For two bodies that interact only with each other but not with other bodies, the force $\vec F_1$ on one body is equal and opposite to the force $\vec F_2$ on the other body, Newton's law "action = reactio" is given by
+
+$$
+\vec F_1=-\vec F_2
+$$
+
+such that for every action, there is an equal and opposite action.
+
 # Thermodynamics
+
+
 
 # Electrodynamics
 
 ## Maxwell's Equations
+
+
 
 # Quatum Mechanics
 
