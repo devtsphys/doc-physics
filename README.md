@@ -18,7 +18,7 @@ $$
 
 The acceleration of a classical particle is given by
 $$
-\vec a=\dot{\vec v}=\frac{\mathrm d}{\mathrm dt}\vec v=(\dot x,\dot y,\dot z)^T
+\vec a=\dot{\vec v}=\frac{\mathrm d}{\mathrm dt}\vec v=(\ddot x,\ddot y,\ddot z)^T
 $$
 
 # Electrodynamics
