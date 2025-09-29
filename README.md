@@ -5,10 +5,11 @@
 ## Mechanics of a particle
 
 the general trajectory of a classical partical is given by
-
+<span style="background-color: orange;">
 $$
 \vec x=(x,y,z)^T
 $$
+</span>
 
 We define the velocity of a classical particle as the derivative w.r.t time
 
