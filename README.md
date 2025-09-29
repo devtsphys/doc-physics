@@ -8,7 +8,7 @@ The general trajectory of a classical partical in the three-dimensional space is
 
 $$
 \vec x=(x(t),y(t),z(t))^T=
-\begin{pmatrix}x(t)\\y(t)\\z(t)\end{pmatrix}
+\begin{pmatrix}x(t)\\ y(t)\\ z(t)\end{pmatrix}
 $$
 
 where the coordinate functions $x\equiv x(t)$ depend on the time variable $t\in\mathbb R$.
