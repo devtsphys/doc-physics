@@ -203,15 +203,23 @@ and describes the fact that the magnetic field is free of sources and sinks and 
 
 ### Faraday's induction law
 
-The law of Faraday describes the dynamical creation of a magnetic field induced by a dynamic electric field
-
+The law of Faraday describes the dynamical creation of an electric field by a temporal change of the magnetic flux density
 
 $$
-\int_{\partial A}\vec E(\vec x)d\vec x=
 \int_{A}\vec\nabla\times\vec E(\vec x)d\vec\sigma=
+\int_{\partial A}\vec E(\vec x)d\vec x=
 -\frac{\partial}{\partial t}\int_{A} \vec B(\vec x)d\vec\sigma
 $$
 
+### Amperes law
+
+The (extended) law of Ampere describes the dynamical creation of a magnetic field induced by the temporal change of either an electric current or an electric flux density
+
+$$
+\int_{A}\vec\nabla\times\vec B(\vec x)d\vec\sigma=
+\int_{\partial A}\vec B(\vec x)d\vec x=
+\mu_0I+\mu_0\varepsilon_0\frac{\partial}{\partial t}\int_A\vec E(\vec x)d\vec\sigma
+$$
 
 # Quatum Mechanics
 
