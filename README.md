@@ -183,11 +183,7 @@ The Gauß law of electrostatic is formulated as follows
 
 
 $$
-\int_{V}\vec\nabla\cdot\vec E(\vec x) d^3x
-=
-\int_{\partial V} \vec E(\vec x)d\vec \sigma
-=
-\frac{Q}{\varepsilon_0}
+\int_{V}\vec\nabla\cdot\vec E(\vec x) d^3x=\int_{\partial V} \vec E(\vec x)d\vec \sigma=\frac{Q}{\varepsilon_0}
 $$
 
 
@@ -199,8 +195,7 @@ The Gauß law of magnetostatics is formulated as
 
 
 $$
-\int_{V}\vec\nabla\cdot\vec B(\vec x)d^3x=
-\int_{\partial V}\vec B(\vec x)d\vec\sigma=0
+\int_{V}\vec\nabla\cdot\vec B(\vec x)d^3x=\int_{\partial V}\vec B(\vec x)d\vec\sigma=0
 $$
 
 
