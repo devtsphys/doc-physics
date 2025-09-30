@@ -221,6 +221,46 @@ $$
 \mu_0I+\mu_0\varepsilon_0\frac{\partial}{\partial t}\int_A\vec E(\vec x)d\vec\sigma
 $$
 
+## Electric and magnetic potentials
+
+The potential fields for the electric and the magnetic fields $\phi(\vec x)$ and $\vec A(\vec x)$ are defined in the following way
+
+$$
+\begin{aligned}
+\vec E(\vec x)&=-\vec\nabla\phi(\vec x)-\frac{\partial}{\partial t}\vec A(\vec x)\\
+\vec B(\vec x)&=\vec\nabla\times\vec A(\vec x)
+\end{aligned}
+$$
+
+## Covariant formulation of electrodynamics
+
+The potential field is defined as follows
+
+$$
+A_\mu=(\phi(\vec x)/c,\vec A(\vec x))
+$$
+
+with the current density
+
+$$
+j_\mu=(c\rho(\vec x),\vec j(\vec x))
+$$
+
+and the field strngth tensor
+
+$$
+F^{\alpha\beta}=\partial^\mu A^\nu-\partial^\nu A^\mu
+$$
+
+The homogeneous and inhomogenous Maxwell equations can be written in the following way
+
+$$
+\begin{aligned}
+\varepsilon^{\alpha\beta\gamma\delta}\partial_\alpha F_{\gamma\delta}&=0\\
+\partial_\alpha F^{\alpha\beta}&=\mu_0 j^\beta
+\end{aligned}
+$$
+
 # Quatum Mechanics
 
 ## Schroedinger equation of a free particle
