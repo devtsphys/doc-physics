@@ -237,13 +237,13 @@ $$
 The potential field is defined as follows
 
 $$
-A_\mu=(\phi(\vec x)/c,\vec A(\vec x))
+A^\mu=(\phi(\vec x)/c,\vec A(\vec x))
 $$
 
 with the current density
 
 $$
-j_\mu=(c\rho(\vec x),\vec j(\vec x))
+j^\mu=(c\rho(\vec x),\vec j(\vec x))
 $$
 
 and the field strngth tensor
