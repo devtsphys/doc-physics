@@ -215,6 +215,20 @@ $$
 
 # Quatum Mechanics
 
+## Schroedinger equation of a free particle
+
+The Schroeding equation of a free particle is given as follows
+
+$$
+i\hbar\frac{\partial}{\partial t}\psi(\vec x,t)=-\frac{\hbar^2}{2m}\Delta\psi(\vec x,t)
+$$
+
+In the abstract notification the time-dependent Schroedinger equation is given by
+
+$$
+\hat{H}\braket{\psi(t)}=i\hbar\braket{\psi(t)}
+$$
+
 # Quantum Field Theory
 
 # Particle Theory
