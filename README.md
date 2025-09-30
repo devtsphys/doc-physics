@@ -249,7 +249,7 @@ $$
 and the field strngth tensor
 
 $$
-F^{\alpha\beta}=\partial^\mu A^\nu-\partial^\nu A^\mu
+F^{\mu\nu}=\partial^\mu A^\nu-\partial^\nu A^\mu
 $$
 
 The homogeneous and inhomogenous Maxwell equations can be written in the following way
