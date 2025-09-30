@@ -181,13 +181,15 @@ $$
 
 The Gauß law of electrostatic is formulated as follows
 
+
 $$
-\int_{V} \vec\nabla\cdot\vec E(\vec x) d^3x
+\int_{V}\vec\nabla\cdot\vec E(\vec x) d^3x
 =
 \int_{\partial V} \vec E(\vec x)d\vec \sigma
 =
 \frac{Q}{\varepsilon_0}
 $$
+
 
 and describes the fact that the electric charge $Q$ is the source and sink of the electrostatic fields.
 
@@ -195,10 +197,12 @@ and describes the fact that the electric charge $Q$ is the source and sink of th
 
 The Gauß law of magnetostatics is formulated as 
 
+
 $$
 \int_{V}\vec\nabla\cdot\vec B(\vec x)d^3x=
 \int_{\partial V}\vec B(\vec x)d\vec\sigma=0
 $$
+
 
 and describes the fact that the magnetic field is free of sources and sinks and all magnetic field lines are closed.
 
@@ -206,11 +210,13 @@ and describes the fact that the magnetic field is free of sources and sinks and 
 
 The law of Faraday describes the dynamical creation of a magnetic field induced by a dynamic electric field
 
+
 $$
 \int_{\partial A}\vec E(\vec x)d\vec x=
 \int_{A}\vec\nabla\times\vec E(\vec x)d\vec\sigma=
 -\frac{\partial}{\partial t}\int_{A} \vec B(\vec x)d\vec\sigma
 $$
+
 
 # Quatum Mechanics
 
